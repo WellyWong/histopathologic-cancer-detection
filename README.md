@@ -7,6 +7,7 @@ Examining histopathologic slides manually is a tedious and time-consuming task, 
 The dataset is relatively small. Therefore, to avoid overfitting, we apply image augmentation during training using the ImageDataGenerator from Keras.
 
 ![image_augmentation](https://github.com/WellyWong/histopathologic-cancer-detection/assets/70742141/41f02e3b-b707-472e-afb3-eed4be57ae7d)
+
 Augmentations of the same original image by the ImageDataGenerator in Keras
 
 ### Model Architecture
@@ -14,4 +15,12 @@ To establish a baseline, we began with a relatively simple model. Convolutional 
 
 ### Model Evaluation
 ![models_roc](https://github.com/WellyWong/histopathologic-cancer-detection/assets/70742141/13ce2b93-b8d6-4d7d-b887-66aede00dd5a)
+
 Receiver Operating Chracteristic (ROC) curve of the three chosen models
+
+### Kaggle Submission Result
+Weighted predictions from DenseNet169 base model and Custom CNN model resulted in improved predictions on Kaggle test data.
+
+![kaggle_score_assembled_model](https://github.com/WellyWong/histopathologic-cancer-detection/assets/70742141/9de7c603-249a-4266-ad78-85a1ce265c69)
+
+Screenshot of Kaggle Leaderboard
