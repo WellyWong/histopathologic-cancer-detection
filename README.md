@@ -1,4 +1,6 @@
 ## histopathologic-cancer-detection
+https://nbviewer.org/github/WellyWong/histopathologic-cancer-detection/blob/main/histopathologic_cancer_detection_classifier.ipynb
+
 ### Overview
 This is a Kaggle mini-project for DTSA 551 - Introduction to Deep Learning. An algorithm was developed to detect metastatic cancer from small patches taken from larger digital pathology scans. The histopathological image dataset comes from Kaggle, it is a slightly modified version of the PatchCamelyon (PCam) benchmark dataset. The original PCam contains duplicate images due to its probabilistic sampling. The version presented on Kaggle does not contain duplicates.
 
